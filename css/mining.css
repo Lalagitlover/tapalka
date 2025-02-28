@@ -1,0 +1,35 @@
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    height: 10vh;
+    font-size: 28px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.main__coin{
+    font-size: 92px;
+}
+.mein__heart{
+    height: 400px;
+    width: 350px;
+    margin-top: -15%;
+    transition: transform 0.1s ease;
+
+}
+.mein__heart.hit {
+    transform: scale(1.2);
+}

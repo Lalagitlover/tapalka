@@ -1,0 +1,26 @@
+body{
+    background-image: url(../img/backgroundsecond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 50%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70vh;
+}
+main div{
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    margin: 1%;
+    border: 1px solid black;
+    padding: 5%;
+}
